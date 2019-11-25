@@ -3673,6 +3673,12 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		@media screen and (max-width: 736px) {
+			#banner p {
+				font-size: 18px;
+			}
+		}
+
 			#banner p a {
 				color: inherit;
 			}
@@ -3750,7 +3756,7 @@ input, select, textarea {
 			}
 
 				#banner h1 {
-					font-size: 1.25em;
+					font-size: 1.55em;
 				}
 
 				#banner br {
