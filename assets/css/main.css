@@ -4355,11 +4355,8 @@ input, select, textarea {
 		left: 18px;
 	}
 
-	.time-container::before {
+	.time-row.right .time-container::before {
 		left: 60px;
-		border: medium solid white;
-		border-width: 10px 10px 10px 0;
-		border-color: transparent white transparent transparent;
 	}
 
 	.left::after, .right::after {
